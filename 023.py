@@ -1,0 +1,7 @@
+n1 = int(input('Dig. um valor de quatro digito: '))
+n = str(n1)
+print(f'analisando o numero {n1}')
+print(f'unidade: {n[3]}')
+print(f'dezena: {n[2]}')
+print(f'centena: {n[1]}')
+print(f'milhar: {n[0]}')

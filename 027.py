@@ -1,0 +1,5 @@
+n = str(input('Dig. o nome completo: ')).strip()
+name = n.split()
+print('prazer em te conhecer!!')
+print(name[0])
+print(name[len(name)-1])
